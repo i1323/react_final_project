@@ -1,0 +1,119 @@
+html,
+body {
+  /*Color: Perfect White */
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+h2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+h4 {
+  font-size: 80px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0 auto;
+}
+
+h6 {
+  font-size: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+input.search {
+  width: 500px;
+  height: 48px;
+}
+
+input.search-button {
+  font-family: "Open Sans Condensed", sans-serif;
+  width: 60px;
+  font-size: 20px;
+  margin: 2px 2px;
+  padding: 8px 6px;
+  background-color: rgba(255, 255, 255, 0.753);
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+h5 i {
+  color: #cbbaccbb;
+}
+
+img#todays-weather-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.wholeContent {
+  /*Color: Strict November */
+  background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+  max-width: 1200px;
+  min-height: 500px;
+  margin: 150px auto;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.weather-temperature strong {
+  line-height: 1;
+  font-weight: 800;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.units {
+  font-size: 20px;
+}
+.card {
+  margin: 5px 2px;
+}
+
+.card-body {
+  padding: 5px 10px;
+}
+
+.impressum {
+  font-size: 16px;
+}
+
+#todays-description {
+  text-transform: uppercase;
+}
+
+.today {
+  max-width: 800px;
+  margin: 20px auto;
+}
