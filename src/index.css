@@ -7,11 +7,13 @@ body {
 h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 30px;
-  display: center;
+  text-align: center;
 }
+
 h2 {
   font-family: "Fredericka the Great", cursive;
   font-size: 50px;
+  padding: 0px 10px;
 }
 
 h3 {
@@ -67,8 +69,8 @@ h5 i {
 }
 
 img#todays-weather-icon {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .wholeContent {
@@ -104,6 +106,10 @@ img#todays-weather-icon {
 
 .card-body {
   padding: 5px 10px;
+}
+
+.col-4 {
+  padding: 20px 10px;
 }
 
 .impressum {
