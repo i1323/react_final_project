@@ -5,7 +5,7 @@ import WeatherTemperature from "./weatherTemperature";
 
 export default function weatherInfo(props) {
   return (
-    <div className="row">
+    <div className="row justify-content-center">
       <div className="col-12">
         <div className="today">
           <div className="firstDay">
