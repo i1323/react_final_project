@@ -24,16 +24,15 @@ export default function weatherInfo(props) {
                 <div className="row">
                   <div className="col-4">
                     <WeatherIcon code={props.data.icon} />
-
                     <h5 className="text-center" id="todays-description">
                       {props.data.description}{" "}
                     </h5>
                   </div>
-                  <div className="col-4">
+                  <div className="col-4" id="temperature">
                     <WeatherTemperature celsius={props.data.temperature} />
                   </div>
-                  <div className="col-4">
-                    <ul id="todays-weather-conditions">
+                  <div className="col-4" id="todays-weather-conditions">
+                    <ul>
                       <li>
                         <strong>Temp min/max:</strong>{" "}
                         {Math.round(props.data.tempMin)}

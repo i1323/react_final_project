@@ -29,7 +29,7 @@ h4 {
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0 auto;
 }
@@ -47,7 +47,6 @@ p {
 
 ul {
   list-style: none;
-  padding-top: 30px;
   padding-left: 20px;
 }
 a.impressum {
@@ -112,6 +111,14 @@ canvas {
 
 #today {
   padding: 5px 5px;
+}
+
+.col-4#temperature {
+  padding: 50px 50px;
+}
+
+.col-4#todays-weather-conditions {
+  padding: 60px 10px;
 }
 
 .today {
