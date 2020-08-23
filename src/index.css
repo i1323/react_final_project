@@ -61,6 +61,7 @@ p {
 
 ul {
   list-style: none;
+  padding-top: 30px;
   padding-left: 20px;
 }
 
@@ -68,9 +69,11 @@ h5 i {
   color: #cbbaccbb;
 }
 
-img#todays-weather-icon {
+img {
   width: 100px;
   height: 100px;
+  display: block;
+  margin: 10px auto;
 }
 
 .wholeContent {
@@ -118,6 +121,10 @@ img#todays-weather-icon {
 
 #todays-description {
   text-transform: uppercase;
+}
+
+#today {
+  padding: 5px 5px;
 }
 
 .today {
