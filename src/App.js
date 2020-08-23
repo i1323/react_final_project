@@ -9,9 +9,10 @@ export default function App() {
       <div className="container">
         <h1>Maggie's Weather App</h1>
         <Weather defaultCity="Salzburg" />
-        <footer>
+        <footer className="text-center">
           This project was coded by Maggie and is{" "}
           <a
+            className="impressum"
             href="https://github.com/i1323/react_final_project"
             target="_blank"
             rel="noopener noreferrer"
