@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./weatherForecast.css";
-
 import WeatherForecastPreview from "./weatherForecastPreview";
 
 export default function WeatherForecast(props) {
